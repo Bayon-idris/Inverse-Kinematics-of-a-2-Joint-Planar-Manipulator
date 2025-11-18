@@ -1,25 +1,19 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
 # Virtual environment
 venv/
-.env/
+env/
 
-# Python cache
-src/__pycache__/
-src/*.pyc
-src/*.pyo
+# VSCode / IDE files
+.vscode/
+.idea/
 
-# OS junk
-.DS_Store
-Thumbs.db
+# Data, models, figures
+data/
+models/
+figs/
 
-# Data folders
-data/raw/
-data/processed/
-data/test/
-
-
-# Jupyter checkpoints
-.ipynb_checkpoints/
-
-# Logs and temporary files
-logs/
+# Logs
 *.log
